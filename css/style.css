@@ -1,0 +1,139 @@
+body{
+    font:1em helvetica,arial,san-serif normal;
+    width: 100%;
+    background: bisque;
+    color: black;
+}
+#main-header h1{
+    background-color: palevioletred;
+    text-align: center;
+    padding: 20px;
+    font-family: tahoma;
+    font-style: bold;
+   word-spacing: 0.3em;
+   text-decoration:line-through;
+   letter-spacing: 4px;
+   border-radius: 8px;
+   line-height: 2em;
+}
+#main-header  ul{
+    background-color: black;
+    padding: 20px;
+    line-height: 0.6em;
+    word-spacing: 5px;
+    border-radius: 8px;
+}
+#main-header li{
+    display: inline;
+    margin: 8px;
+    list-style: none;
+    font-weight: bold ;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}
+.lara-1 h1{
+    font-style:italic;
+    font-size:large;
+    padding:20px 1px 0 20px ;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 4px;
+}
+.lara-1 {
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+#Block-1 h2{
+    text-align: center;
+    padding: 20px;
+    background-color: coral;
+    border-radius: 8px;
+    font-family:tahoma ;
+    word-spacing: 0.3em;
+    font-size:22px;
+    text-decoration: underline
+}
+.form-1 {
+    display: block;
+    padding: 30px;
+    border: 2px black solid;
+    margin: 30px;
+    background: url('../images/background.jpg');
+    color:silver;
+    font-size: 15px;
+}
+.form-1 input[type="text"],.form-1 textarea{
+    width:80%;
+    padding:10px;
+}
+#button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#button:hover{
+    background-color: white;
+    color: black;
+}
+#button:active{
+    color: red;
+}
+.info h1{
+    text-align: center;
+    font-family: tahoma;
+    padding-top: 20px;
+    letter-spacing: 4px;
+    font-size: 22px;
+    text-decoration:underline;
+}
+.info .block{
+    float: left;
+    width: 33.3%;
+    border: 2px black solid;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+.clr{
+    clear: both;
+}
+#My-list li{
+    color: ;
+    background: none;
+    border-bottom: 1px dotted;
+    list-style:circle ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-block{
+    float: left;
+    width:70%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+
+.side-bar{
+    float: left;
+    width:30%;
+    background:black;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main-footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
